@@ -1,0 +1,8 @@
+{%extends 'base.html'%}
+{%block head%}<title>Intern Task for Yuvi</title>{%endblock%}
+{%block content%}<h1>{{title}}</h1>
+<p>This is a intern task given to yuvi to complete the first task as a simple dynamic page using django.</p>
+{%for a in my_list%}
+<li>{{a}}</li>
+{%endfor%}
+{%endblock%}
